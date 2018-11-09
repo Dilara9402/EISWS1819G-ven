@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <meta charset=utf-8">
+<title>DontForget-App</title>
+<link rel = "stylesheet" href = "app.css">
+</head>
+
+
+<body>
+  <img src="logo.jpg" alt="HTML5" style="width:auto;height:auto">
+
+<div class="center">
+  <!-- Rounded switch -->
+<p id="text">LED AN</p>
+<label class="switch">
+    <input type="checkbox" id="toggle" onclick="check()">
+    <span class="slider round"></span>
+  </label>
+  <br><br>
+  <button id="temp">Temperatur abfragen</button>
+</div>
+    
+    
+<script>
+  function check()
+  {
+    if(document.getElementById("toggle").checked)
+      document.getElementById("text").innerHTML="LED AUS";
+    else
+    document.getElementById("text").innerHTML="LED AN";
+  }
+</script>
+    
+</body>
+</html>
