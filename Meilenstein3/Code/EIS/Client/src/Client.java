@@ -6,7 +6,7 @@ public class Client
 {
     public static void main(String[] args) {
         try {
-            Socket s = new Socket("192.168.2.109",8080); //"192.168.43.92"
+            Socket s = new Socket("localhost",8080); //"192.168.43.92"
             System.out.println("Client started");
 
             OutputStream out=s.getOutputStream();
@@ -15,8 +15,7 @@ public class Client
             BufferedReader reader=new BufferedReader(new InputStreamReader(in));
             int ui=-1;
 
-            while (ui!=0)
-            {
+            while (ui!=0) {             //wenn UI 0 ist, wird Schleife beendet
                 System.out.println("\nMögliche Befehle: ");
                 System.out.println("[1] LED AN/AUS");
                 System.out.println("[2] Temperatur anzeigen");

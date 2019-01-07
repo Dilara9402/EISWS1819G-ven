@@ -31,7 +31,7 @@ public class Server
             else if(cmd==2)
                 send="Es ist "+temperature()+" Grad Celsius";
             else if(cmd==3)
-                send="Die LED ist "+energy();
+                send= energy();
             else
                 send="Befehl konnte nicht interpretiert werden.";
             writer.write(send+"\n");
