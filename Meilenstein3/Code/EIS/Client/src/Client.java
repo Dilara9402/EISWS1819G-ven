@@ -1,12 +1,15 @@
 import java.io.*;
 import java.net.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Client
 {
     public static void main(String[] args) {
+
         try {
-            Socket s = new Socket("localhost",8080); //"192.168.43.92"
+
+            Socket s = new Socket("localhost",8080); //"192.168.43.92",192.168.5.255
             System.out.println("Client started");
 
             OutputStream out=s.getOutputStream();
@@ -21,7 +24,7 @@ public class Client
                 System.out.println("[2] Temperatur anzeigen");
                 System.out.println("[3] Stromverbrauch und Stromkosten anzeigen");
                 System.out.println("[0] Beendet den Server\n");
-                System.out.println("Ihr Eingabe: ");
+                System.out.println("Ihre Eingabe: ");
                 Scanner sc=new Scanner(System.in);
                 ui=sc.nextInt();
 

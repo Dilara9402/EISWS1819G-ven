@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:id="@+id/textHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="1 Gesetzliche Grundlagen: Auch eine private Homepage braucht eine Datenschutzerklärung
+
+1.1 Das droht, wenn Sie keine Datenschutzerklärung auf Ihrer Homepage haben
+
+1.2 Schadensersatz und Anspruch auf Unterlassung: Diese Forderungen kann eine Abmahnung enthalten
+
+2 Was müssen Sie in der Datenschutzerklärung Ihrer Website festhalten?
+
+2.1 Analyse- und Statistikanwendungen in Datenschutzhinweisen
+
+2.2 Social-Media-Plugins nutzen? Nicht ohne Hinweis in der Datenschutzerklärung!
+
+2.3 Hinweis auf den Umgang mit Kontaktdaten
+
+2.4 Interaktionsmöglichkeiten auf Websites in der Datenschutzerklärung Ihrer Website festhalten
+
+3 Muster: Die Datenschutzerklärung Ihrer Website kann wie folgt formuliert werden
+
+3.1 Datenschutzerklärung für eine Website: Vorlage zum Download
+
+3.2 Wo müssen die Datenschutzbestimmungen auf einer Website untergebracht werden?"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+</android.support.constraint.ConstraintLayout>
