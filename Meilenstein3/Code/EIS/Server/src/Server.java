@@ -62,7 +62,7 @@ public class Server
     private static String ledStatus()
     {
         String[] led={"AN","AUS"};
-        Random random = new Random();
+        Random random = new Random(); //Test
         int select=random.nextInt(led.length);
         return led[select];
     }

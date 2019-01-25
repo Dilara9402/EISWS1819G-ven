@@ -9,7 +9,7 @@ public class Client
 
         try {
 
-            Socket s = new Socket("localhost",8080); //"192.168.43.92",192.168.5.255
+            Socket s = new Socket("192.168.6.6",8080); //"192.168.43.92",192.168.5.255
             System.out.println("Client started");
 
             OutputStream out=s.getOutputStream();
